@@ -17,11 +17,11 @@ document.getElementById("btn-submit").addEventListener("click", function () {
 
     // Danger: do not verify email password on the client side
     // step 04: verify email and password and check weather valid user or not
-   if (email === 'mazharul@gami.com' && password === 'secret') {
-    console.log('valid user');
+   if (email === 'mazharul@gami.com' && password === '1234') {
+        window.location.href = "bank.html"
    }
    else{
-    console.log('Invalid User');
+    alert('Invalid email and password')
    }
 
 
