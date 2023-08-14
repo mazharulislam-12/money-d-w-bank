@@ -21,7 +21,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
         window.location.href = "bank.html"
    }
    else{
-    alert('Invalid email and password')
+    alert('Invalid email or password')
    }
 
 
